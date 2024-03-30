@@ -1,0 +1,60 @@
+.skillsParent{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    height: 100vh;
+    grid-gap: 50px;
+   
+}
+
+.skillsGrandParent{
+    height: auto;
+    background-color: #FFC107;
+    padding-top: 50px;
+}
+
+.icons{
+    font-size: 50px;
+    transition: transform 0.3s;
+}
+
+.react{
+    animation-name:reactMation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    
+}
+
+@keyframes reactMation {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+/* @media screen  and (max-width:798px){
+    .skillsParent{
+        grid-template-columns: 1fr 1fr;
+    }@media screen and (max-width:1496px){
+        .skillsGrandParent{
+            height: 200vh;
+        }
+    }
+} */
+@media screen and (max-width:800px){
+    .skillsGrandParent{
+        height: 100%;
+    }
+}
+
+.icons:hover{
+    transform: rotateZ(15deg) scale(1.5)
+}
+
+
+

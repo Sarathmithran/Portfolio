@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.App{
+    /* height: 130vh; */
+    background-color: #FFC107  
+}
+
+/* @media screen and (max-width:500px){
+    .App{
+        height: 240vh;
+    }
+} */

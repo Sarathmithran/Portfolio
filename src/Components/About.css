@@ -1,0 +1,22 @@
+.about{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    background-color: #FFC107;
+    height: 85vh; 
+}
+
+.aboutsentence{
+    font-size: 25px;
+    width: 80%; 
+    margin: auto;
+    color: #333;
+    line-height: 40px;
+    font-weight:500 ;
+}
+
+@media screen and (max-width:500px){
+    .about{
+        height: 130vh;
+    }
+}
